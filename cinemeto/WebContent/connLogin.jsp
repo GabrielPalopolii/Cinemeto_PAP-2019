@@ -12,7 +12,7 @@ if((!(nome.equals(null) || nome.equals("")) && !(password.equals(null) || passwo
 try{
 	
 	Class.forName("oracle.jdbc.driver.OracleDriver");
-	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","SYSTEM","gn240300");
+	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","SYSTEM","password");
 	
 	PreparedStatement ps = conn.prepareStatement("SELECT * FROM CLIENTE_CINE WHERE NAME=? AND PASSWORD=?");
 	ps.setString(1, nome);

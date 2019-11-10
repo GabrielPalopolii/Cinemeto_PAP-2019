@@ -16,7 +16,7 @@ if(password != null){
 	try{
 
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","SYSTEM","gn240300");
+		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","SYSTEM","password");
 		PreparedStatement ps = conn.prepareStatement("INSERT INTO CLIENTE_CINE VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 		ps.setString(1, name);
 		ps.setString(2, lastName);
