@@ -1,0 +1,442 @@
+@media screen and (max-width: 1024px) {
+   
+}
+
+
+/* BODY */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url('https://images5.alphacoders.com/100/thumb-1920-1009977.jpg');
+  width: 100%;
+   height: 100%;  
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+}
+
+/* CLASSE E ID DA TELA DE LOGIN */
+label{
+	display: block;
+	margin: 8px 0px 3px 0px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input[type="text"]{
+	margin-top: 5px;
+	width: 20em;
+	border-radius: 15px 6px 15px 6px;
+	padding: 10px;
+}
+
+
+
+#h2{
+	display: block;
+	border-bottom: 1px solid black;	
+	padding-bottom: 10px;
+}
+
+#dividir{
+	margin-top: 20px;
+	border-top:1px solid #ccc;
+
+}
+
+h4{
+	color: #585858;
+}
+
+form{
+	padding: 2em;
+	margin: 0px auto;
+	margin-top: 200px;
+	border: 1px solid #FFF;
+	box-shadow:  1px 3px 22px #B7B6B6;
+	border-radius: 15px 6px 15px 6px;
+	width: 30%;
+	height: 70%;
+	
+}
+
+#buttonLog{
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-left: 100px;
+	padding: 10px;
+	border-radius: 15px;
+	background: #570981;
+	width: 50%;
+	height: 70%;
+	color: #FFF;
+	border: #FFF;
+	font-weight: bold;
+
+}
+
+#buttonLog:hover{
+	background: #E0AEFA;
+	color: #000;
+	transition: 1s all;
+	font-weight: bold;
+}
+
+#buttonCad{
+	border: 1px solid #000;
+	margin: 0px auto;
+	margin-top: 9px;
+	margin-left: 100px;
+	padding: 10px;
+	border-radius: 15px;
+	background: #FFF;
+	width: 50%;
+	height: 70%;
+	color: #000;
+	font-weight: bold;
+}
+
+#buttonCad:hover{
+	border: 1px solid #585858;
+	color: #585858;
+	font-weight: bold;
+	transition: 1s all;
+}
+
+#p{
+	text-align: left;
+	margin-left: 280px;
+	margin-top: 6px;
+
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+a:hover{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 1s all;
+}
+
+#navegacao{
+	background: #8000FF;
+	border-bottom: 1px solid #000;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+
+}
+#area{
+	width: 820px;
+	margin: 0 auto;
+	
+}
+
+#logo{
+	float: left;
+	margin-top: auto;
+}
+
+#menu{
+	float: right;
+	margin: 0px -20px 0px 0px;
+	padding: 10px 0px; 
+}
+
+.verde{
+	color: #380B61;
+}
+
+#a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#a:hover{
+	color: #570981;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* ================================================================================================================= */
+/* CLASSE E ID DA TELA CADASTRO */
+
+#h2-Cadastro{
+	display: block;
+	border-bottom: 1px solid black;	
+	padding-bottom: 10px;
+}
+
+#form{
+	padding: 1em;
+	margin-top: 100px;
+	padding-bottom: 30px;
+	border: 1px solid #FFF;
+	box-shadow:  1px 3px 22px #B7B6B6;
+	border-radius: 15px 6px 15px 6px;
+	width: 80%;
+	height: 100%;
+	margin-bottom: 200px;
+
+}
+
+#radio{
+	margin-top: 5px;
+	margin-left: 15px;
+	border-radius: 15px 6px 15px 6px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#h2-Address{
+	display: block;
+	border-bottom: 1px solid black;	
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+#date{
+	border-radius: 15px 6px 15px 6px;
+	margin-left: 6px;
+	padding: 5px;
+}
+
+#Complemento{
+ width: 100px;
+}
+
+#Numero{
+ width: 100px;
+}
+
+#div-select{
+	border-radius: 15px 6px 15px 6px;
+	padding: 5px;
+	float: right; margin-top: -70px; margin-right: 660px;
+}
+#select{
+	border-radius: 15px 6px 15px 6px;
+	padding: 5px;
+
+}
+
+input[type="email"]{
+	margin-top: 5px;
+	width: 20em;
+	border-radius: 15px 6px 15px 6px;
+	padding: 10px;
+}
+
+input[type="password"]{
+	margin-top: 5px;
+	width: 20em;
+	border-radius: 15px 6px 15px 6px;
+	padding: 10px;
+}
+
+#buttonReg{
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-left: 270px;
+	padding: 10px;
+	border-radius: 15px;
+	background: #570981;
+	width: 50%;
+	height: 70%;
+	color: #FFF;
+	border: #FFF;
+	font-weight: bold;
+}
+#buttonReg:hover{
+	background: #E0AEFA;
+	color: #000;
+	transition: 1s all;
+	font-weight: bold;
+}
+
+/* ================================================================================================================= */
+/*Tela Filmes */
+.filmes_conteudo {
+	padding: 20px;
+	overflow: hidden;
+}
+.filmes {
+	margin: 20px 0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.filme {
+	overflow: hidden;
+	margin: 10px;
+	height: 345px;
+	transition: transform 1s ease-in-out linear;
+}
+.filme:hover {
+	transform: scale(1.1);
+}
+.filme_titulo {
+    position: relative;
+    top: -80px;
+    color: white;
+    left: 10px;
+    text-shadow: 2px 2px 2px #000;
+    border-color: #8000FF;
+}
+.filme_image {
+ 	background-repeat: no-repeat;
+ 	height: 356px;
+ 	margin: 0 auto;
+	display: block;
+	float:left;
+	
+}
+.filme_image:hover {
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.4);
+}
+.filme_button {
+    background: #8000FF;
+    color: #fff;
+    transition: 1s all;
+    font-weight: bold;
+    position: relative;
+    top: -75px;
+    left: 10px;
+    border: 1px #fff;
+    background: #8000FF;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.conteudo_sinopse{
+    
+    float: left;
+    padding-left:15px;
+    padding:15px;
+    margin-bottom:-30px;
+    width:70%;
+}
+
+
+#pagamento-ingresso{
+    margin-top: 281px;
+    margin-left: 270px;
+    border: 1px solid black;
+    padding: 23px;
+}
+
+.filmes_header{
+
+	padding:15px;
+}
+
+
+.filme_sinopse{
+	padding:15px;
+}
+
+#gerar-ticket{
+	
+	width:40%;
+	height:112%;
+}
+
+#cadastro{
+	width:75%;
+	
+}
+
+footer{
+	text-align: center;
+	color: #585858;
+	
+}
+.filme_button_desativo{
+    color: #fff;
+    transition: 1s all;
+    font-weight: bold;
+    position: relative;
+    top: -75px;
+    left: 10px;
+    border: 1px #fff;
+    background: #8B0000;
+    padding: 4px;
+    cursor: pointer;
+    button: disabled;
+	
+}
+.finalizar_compra{
+	background: #8000FF;
+    color: #fff;
+    transition: 1s all;
+    font-weight: bold;
+    position: relative;
+    border: 1px #fff;
+    background: #8000FF;
+    padding: 4px;
+    cursor: pointer;
+}
+
+
+
+
+/* ================================================================================================================= */
+/* CLASSE E ID DA TELA Ticket */
+
+th{
+	font-size: 20px;
+	color: #424242;
+	text-align: center;
+	border:none;
+
+}
+
+td{
+	background: #FFF;
+	text-align: center;
+	border: none;
+	padding: 10px;
+}
+
+.espaco{
+	margin-top: 100px;
+	border: 2px solid black;
+	border-radius: 35px;
+	height: 50%;
+	width:50%;
+	margin-left: 100px;
+
+}
